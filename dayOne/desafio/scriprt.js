@@ -4,6 +4,7 @@ if (notaFinal >=6)
 console.log("parabens , vc esta aprovado :) ")
 else console.log("parabens , vc foi reprovado :(")
 
+
 // controle climatico Dev_
 
 var variavel =prompt("desenha converter celcius para faraing , se sim digite 1 para Firen se não digite 2 para Kelvin ")
