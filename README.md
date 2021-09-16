@@ -5,11 +5,11 @@
  Imersão Alura , este e o meu repositorio onde apresento exercicios , desafios e um pouco do meu aprendizado em toda essa jornada, relatando 
  um pouco de todo conhcecimento obtido na base modernda de qualquer desenvolvimento Web nos dias de hoje;
  
- CSS3
+ _CSS3_
  
- HTML5
+ _HTML5_
  
- JAVA SCRIPT
+ _JAVA SCRIPT_
 
 
 
