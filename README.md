@@ -1,4 +1,4 @@
-<img src="https://cdn-icons-png.flaticon.com/512/5524/5524411.png"  align="right" width="300">
+<img src="https://cdn-icons-png.flaticon.com/512/5524/5524411.png"  align="right" width="350">
   
   # AluraVerso
 
