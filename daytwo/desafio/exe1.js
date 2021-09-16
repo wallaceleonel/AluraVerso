@@ -22,5 +22,3 @@ function Converteruk(){
         var valorConvertido = "o resultado em libra é " + valorEmReal
         elementoValorConvertido.innerHTML = valorConvertido
 }
-  
-  
