@@ -11,7 +11,7 @@
  um pouco de todo conhcecimento obtido na base modernda de qualquer desenvolvimento Web nos dias de hoje;
  
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML5)
+- [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Codepen](https://codepen.io)
 
