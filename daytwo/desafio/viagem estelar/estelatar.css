@@ -1,9 +1,12 @@
+
 body {
     font-family: "Roboto Mono", monospace;
-    min-height: 400px;
-    background-image: url("https://img-premium.flaticon.com/png/512/5535/premium/5535772.png?token=exp=1631788168~hmac=21cd7d181d53932e4c8a8cf326df8242");
-    background-color: #000;
-    background-size: 80vh;
+    min-height: 250px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/944/944261.png");
+   
+
+    background-color: #000000;
+    background-size:80vh;
     background-position: center bottom;
     background-repeat: no-repeat;
   }

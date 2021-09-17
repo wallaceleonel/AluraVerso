@@ -1,8 +1,8 @@
 body {
     font-family: "Roboto Mono", monospace;
-    min-height: 400px;
-    background-image: url("https://img-premium.flaticon.com/png/512/5535/premium/5535772.png?token=exp=1631788168~hmac=21cd7d181d53932e4c8a8cf326df8242");
-    background-color: #000;
+    min-height: 250px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2639/2639084.png");
+    background-color: #000000;
     background-size: 80vh;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -15,13 +15,13 @@ body {
   }
   
   .page-title {
-    color: #ffffff;
+    color: #fcf952;
     margin: 0 0 5px;
   }
   
   .page-subtitle {
     color: #ffffff;
-    margin-top: 5px;
+    margin-top: 4px;
   }
   
   .page-logo {
@@ -39,6 +39,7 @@ body {
     margin: 12px;
     padding: 6px;
     border-radius: 5px;
+    margin-right: 260px;
   }
   
   label {
@@ -50,10 +51,15 @@ body {
     padding: 4px 8px;
     border-radius: 10px;
     background: #ffffff;
+    margin-right: 250px;
   }
   
   h2 {
     color: #ffffff;
     font-size: 30px;
+  }
+  h3 {
+    color: #ffffff;
+    font-size: 35px;
   }
   

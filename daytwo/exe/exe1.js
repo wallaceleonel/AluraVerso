@@ -1,3 +1,4 @@
+//Criando segundo botão para impressão de novo valor em outra moeda 
 function Converteruss() {
     var valorElemento = document.getElementById("valor");
 
