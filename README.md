@@ -9,7 +9,7 @@
 
  Imersão Alura , este e o meu repositorio onde apresento exercicios , desafios e um pouco do meu aprendizado em toda essa jornada, relatando 
  um pouco de todo conhcecimento obtido na base modernda de qualquer desenvolvimento Web nos dias de hoje;
- 
+  ## 🚀 Tecnologias
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
