@@ -4,8 +4,9 @@ Desafio dois, dar uma pista sobre o chute
 */
 
     var numeroSecreto = parseInt(Math.random() * 11);
+    for (let i=0; i<=3;i) {
     function Chutar() {
-        for (let i=0; i<=3;i) {
+        
        
       var elementoResultado = document.getElementById("resultado");
       var chute = parseInt(document.getElementById("valor").value);
@@ -21,10 +22,10 @@ Desafio dois, dar uma pista sobre o chute
         elementoResultado.innerHTML = "Você deve digitar um número de 0 a 10";
       }
     
-        }elementoResultado.innerHTML = "Tentativas esgotadas , infelizmente vc não acertou :( " +numeroSecreto
-
+        elementoResultado.innerHTML = "Tentativas esgotadas , infelizmente vc não acertou :( " +numeroSecreto
 
 }
+    }
     
    
  
