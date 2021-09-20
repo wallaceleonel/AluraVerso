@@ -4,7 +4,7 @@ Desafio dois, dar uma pista sobre o chute
 */
 
     var numeroSecreto = parseInt(Math.random() * 11);
-    for (let i=0; i<=3;i) {
+    for (let i=0; i<=3;i++) {
     function Chutar() {
         
        
