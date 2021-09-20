@@ -1,6 +1,6 @@
-<img src="https://cdn-icons-png.flaticon.com/512/1403/1403958.png"  align="right" width="250">
+<img src="https://cdn-icons-png.flaticon.com/512/4436/4436953.png"  align="right" width="300">
   
-  # AluraVerso
+ # AluraVerso <img src="https://cdn-icons-png.flaticon.com/512/1326/1326001.png"  align="center" width="50">
 <p align="center">
   <a href="#rocket-tecnologias">| Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
