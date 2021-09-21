@@ -16,8 +16,7 @@
 - [Codepen](https://codepen.io)
 
 
-
-## 💻 Projeto
+## Projeto ... <img src="https://cdn-icons-png.flaticon.com/512/866/866488.png" aling="center" width="40">  
 
   
   
