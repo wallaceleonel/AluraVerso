@@ -1,10 +1,9 @@
 body {
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  background-image: url("https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png");
+  background-image: url("https://images2.alphacoders.com/778/77840.jpg");
   background-color: #000000;
   background-size: cover;
-  background-position: center top;
   background-repeat: no-repeat;
 }
 
@@ -14,8 +13,29 @@ body {
 }
 
 .page-title {
-  color: #ffffff;
+  animation: flicker 1.5s infinite alternate;
   margin: 0 0 5px;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa,
+      0 0 70px #0fa, 0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
 }
 
 .page-subtitle {
@@ -27,41 +47,29 @@ body {
   width: 200px;
 }
 
-.alura-logo {
+.hacker-logo {
   width: 40px;
   position: absolute;
   top: 10px;
   right: 10px;
 }
 
-#listaFilmes img {
-  margin: 10px;
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
   max-height: 250px;
+  position: center;
 }
 
-.form-wrapper {
-  margin: 0 0 15px;
-}
-
-.form-wrapper input {
-  display: block;
-  margin: 0 auto;
-  padding: 10px 15px;
-}
-
-.form-wrapper button {
-  border: 0;
-  color: #ffffff;
-  background: #da1e26;
-  font-weight: bold;
-  padding: 15px 20px;
-  font-size: 16px;
-  border-radius: 4px;
-  margin-top: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.form-wrapper button:hover {
-  opacity: 0.8;
+p {
+  position: center;
 }
