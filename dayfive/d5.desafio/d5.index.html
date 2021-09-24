@@ -16,8 +16,11 @@
       Qual seu filme favorito?
     </p>
     <div class="form-wrapper">
-      <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
-      <button onClick="adicionarFilme()">Adicionar Filme</button>
+      <input type="text" id="addNome" name="nome" placeholder="Insira o nome do filme">
+      <input type="text" id="addFilme" name="filme" placeholder="Insira endereço de imagem">
+      <button onClick="adicionarFilme()">Adicionar Filme</button> <br>
+      <input type="number" id="remover" name="remover" placeholder="Insira o índice do filme">
+      <button onClick="removerFilme()">Remover Filme</button>
     </div>
   </div>
   <div id="listaFilmes"></div>
