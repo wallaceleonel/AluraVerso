@@ -23,9 +23,9 @@ function exibirJogadoresNatela(jogadores){
         elemento += "<td>"+ jogadores[i].empates + "</td>"
         elemento += "<td>"+jogadores[i].derrotas +"</td>"
         elemento += "<td>"+jogadores[i].pontos +"</td>"
-        elemento += "<td><button onClick= 'adicionarVitoria()'>Vitoria</button></td>"
-        elemento += "<td><button onClick= 'adicionarEmpate()'>Empate</button></td>"
-        elemento += "<td><button onClick= 'adicionarDerrota()'>Derrota</button></td>"
+        elemento += "<td><button onClick= 'adicionarVitoria(" + i +")'>Vitoria</button></td>"
+        elemento += "<td><button onClick= 'adicionarEmpate(" + i + ")'>Empate</button></td>"
+        elemento += "<td><button onClick= 'adicionarDerrota(" + i +")'>Derrota</button></td>"
         elemento += "</tr>"
 
     
@@ -35,3 +35,23 @@ function exibirJogadoresNatela(jogadores){
     tabelaJogadores.innerHTML = elemento
 }
 exibirJogadoresNatela(jogadores);
+
+function adicionarVitoria(i){
+    var jogador = jogadores[i];
+    jogador.vitorias++
+    jogador.pontos = calcularPontos(jogador)
+    exibirJogadoresNatela(jogadores)
+}
+
+function adicionarEmpate(i){
+    var jogador =jogadores [i];
+    jogador.empates++;
+    jogador.pontos = calcularPontos(jogador);
+    exibirJogadoresNatela(jogadores);
+}
+
+function adicionarDerrota(i){
+    var jogador =jogadores[i];
+    jogador.derrotas++;
+    exibirJogadoresNatela(jogadores);
+}
