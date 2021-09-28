@@ -23,7 +23,7 @@
   feita desde seu desing ate sua funcionalidade e como simples cliques desencadeiam funções dentro de funções em um estrutura.
   
   
-  ## Layout <img src="https://cdn-icons-png.flaticon.com/512/1557/1557516.png" aling="center" width="40">  
+  ## Layout  <img src="https://cdn-icons-png.flaticon.com/512/1557/1557516.png" aling="center" width="40">  
     
    A base de todo layout foi trabalhada no Codepan , tendo assim a versatilidade de desenvolver os tres elementos em uma 
    unica pagina e ao lado nosso "console WEB" para testes e desenvolvimento 
