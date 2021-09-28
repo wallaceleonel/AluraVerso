@@ -9,9 +9,19 @@
 <body>
   <h1>Tabela de classificação</h1>
 
+  <input type="text" id="addNome" name="nome" placeholder="Insira o nome do jogado">
+  <input type="text" id="addFoto" name="foto" placeholder="Insira o endereço da imagem">
+  <button onClick="adicionarJogador()">Adicionar Jogador</button>
+  <br><br>
+
+  <button onClick="resetarPontos()">Resetar Pontos</button>
+  <button onClick="resetarTabela()">Resetar Tabela</button>
+  <br><br>
+
   <table style="width:100%">
     <thead>
       <tr>
+        <th>Foto</th>
         <th>Nome</th>
         <th>Vitórias</th>
         <th>Empates</th>
@@ -21,8 +31,8 @@
       </tr>
     </thead>
     <tbody id="tabelaJogadores">
-      <tr>
-        <td>bibig</td>
+      <!--       <tr>
+        <td>Paulo</td>
         <td></td>
         <td></td>
         <td></td>
@@ -31,7 +41,17 @@
         <td><button onClick="adicionarEmpate()">Empate</button></td>
         <td><button onClick="adicionarDerrota()">Derrota</button></td>
       </tr>
-    </tbody>
+      <tr>
+        <td>Rafa</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr>
+    </tbody> -->
   </table>
 </body>
 
